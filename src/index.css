@@ -13,7 +13,7 @@ body {
 }
 
 p {
-  font-size: 5em;
+  font-size: clamp(40px, 5em, 100vw/15);
   font-weight: 600;
   color: #fffeee;
 }
