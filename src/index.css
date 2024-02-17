@@ -42,9 +42,6 @@ button:focus-visible {
 
 div {
   height: 200vh;
-  width: 100vw;
-  display: block;
-  position: absolute;
-  margin: 0;
-  margin-top: -0.5em;
+  margin-top: -20vh;
+  padding-top: 20vh;
 }
