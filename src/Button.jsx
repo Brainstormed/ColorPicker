@@ -28,7 +28,7 @@ export function Button() {
   }, [color]);
   return (
     <div style={{ backgroundColor: color }}>
-      <p>The color is {color}</p>
+      <p>The color is <span style={{fontFamily: "'JetBrains Mono', 'Courier New', Courier, monospace"}}>{color}</span></p>
       <button onClick={handleClick}>{color}</button>
     </div>
   );
